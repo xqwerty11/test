@@ -1,6 +1,10 @@
+import Header from './compornents/common/header/Header';
+
 function App() {
 	return (
-		<h1>Hello</h1>
+		<>
+			<Header />
+		</>
 	);
 }
 
