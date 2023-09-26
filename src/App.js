@@ -9,11 +9,13 @@ function App() {
 		<>
 			<Header />
 
-			<Route>
+			<Route path='/department'>
 				<Department />
 			</Route>
 
-			<Youtube />
+			<Route path='/youtube'>
+				<Youtube />
+			</Route>
 		</>
 	);
 }
