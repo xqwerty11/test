@@ -1,17 +1,6 @@
 .department {
-	width: 100%;
-
 	figure {
-		width: 100%;
-		height: 30vh;
-		background: gray;
-	}
-
-	.content {
-		width: 80vw;
-		margin: 5vh auto;
-		min-height: 60vh;
-		border: 1px solid #eee;
+		background-color: lightblue;
 	}
 }
 
@@ -21,5 +10,4 @@ module.scss 모듈화 (jsx+style 분리 , jsx의 코드 복잡도는 적지만 �
 styled-component 모듈화 (jsx안쪽에 style을 컴포넌트 형태로 삽입,
 개별적인 파일 코드의 복잡도는 올라가지만 파일의 갯수는 줄어듬
 tailwindcss 모듈화 (파일 복잡도를 올리지 않으면서 파일으 갯수도 늘리지 않음,러닝커브가 높음)
-
 */
