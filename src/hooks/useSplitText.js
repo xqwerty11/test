@@ -13,3 +13,6 @@ export function useSplitText(ref, gap = 0.1, delay = 0) {
 		ref.current.innerHTML = tags;
 	};
 }
+
+//커스텀훅은 일반 컴포넌트 함수와는 달리 jsx를 반환하는 것이 아닌 자주쓰는 함수나 리턴값을 반환
+//커스텀훅은 use라는 접두사로 시작해야됨
